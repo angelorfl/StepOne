@@ -141,20 +141,39 @@ h1 {
     margin-bottom: 14px;
 }
 
-.experiences-column .projects a.links {
-    text-decoration: none;
-    font-size: 18px;
-    color: #000;
-}
-
 .experiences-column .projects a {
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 16px;
     color: #000;
 }
 
-.ultima-atualizacao {
-    margin-top: 30px;
-    text-align: right;
+.experiences-column h3 {
     font-size: 16px;
+}
+
+.last-date {
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .line-botton {
+        width: 200px;
+    }
+
+    .experiences-column .experience {
+        display: flex;
+        
+    }
+    .experiences-column .experience-date {
+        width: 500px;
+    };
 }
