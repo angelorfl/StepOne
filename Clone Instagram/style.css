@@ -24,36 +24,100 @@ img {
     margin-bottom: 6px;
 }
 
-.form button {
+input::placeholder {
+    font-size: 12px;
+    padding: 10px;
+
+}
+
+button.form {
     width: 270px;
-    height: 30px; 
+    height: 30px;
     border: 0px solid;
     border-radius: 4px;
-    background-color: rgba(0, 149, 246, 0.3)    ;
+    background-color: rgba(0, 149, 246, 0.3);
     margin-top: 14px;
     font-weight: 700;
     font-size: 14px;
     color: #FFF;
-    margin-bottom: 24px;
 }
 
+div .line {
+    display: flex;
+    margin-top: 18px;
+    width: 270px;
+    height: 14px;
+
+}
 
 div .line-left {
     width: 107px;
-    display: flex;
     border-bottom: 1px solid #DBDBDB;
+    margin-right: 17px;
 }
 
 div .line-right {
     width: 107px;
-    margin-left: 160px;
     border-bottom: 1px solid #DBDBDB;
-    margin-top: -11px;
+    margin-left: 17px;
 }
 
 p {
     font-size: 17px;
     font-weight: 700;
     color: #8E8E8E;
-    margin-top: -12px;
+
+}
+
+button.login-facebook {
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    background-color: #FFF;
+    color: #385185;
+    margin-top: 29px;
+    font-weight: 700;
+}
+
+button.login-facebook i {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+p.pass-recovery {
+    font-size: 12px;
+    margin-top: 22px;
+    font-weight: 400;
+    color: #00376B;
+}
+
+p.not-account {
+    font-size: 14px;
+    margin-top: 79.5px;
+    color: #262626;
+    font-weight: 400;
+}
+
+p.not-account a {
+    font-weight: 700;
+    color: #0095F6;
+}
+
+p.get-app {
+   margin-top: 68.5px; 
+   font-size: 14px;
+   font-weight: 400;
+   color: #262626;
+}
+
+div.get-stores {
+    display: flex;
+}
+div.get-stores img {
+    width: 134px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
