@@ -1,181 +1,167 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
-    text-align: center;
+main {
     margin: 60px;
-    display: flex;
+    text-align: center;
 }
 
-.container .no-smartphone img {
-    display: none;
-}
-
-img {
-    margin-bottom: 25px;
+main img {
     width: 245px;
     height: 86px;
-
 }
 
-.form input {
+.login .text input {
     width: 270px;
     height: 38px;
-    border: 1px solid #DBDBDB;
     border-radius: 3px;
-    margin-bottom: 6px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    margin-top: 15px;
 }
 
-input::placeholder {
-    font-size: 12px;
-    padding: 10px;
-
+.login .password input {
+    width: 270px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    margin-top: 6px;
 }
 
-button.form {
+.login .submit button {
     width: 270px;
     height: 30px;
-    border: 0px solid;
     border-radius: 4px;
-    background-color: rgba(0, 149, 246, 0.3);
+    background: #0095F64D;
     margin-top: 14px;
     font-weight: 700;
+    color: #FAFAFA;
     font-size: 14px;
-    color: #FFF;
 }
 
-div .line {
+.line {
     display: flex;
     margin-top: 18px;
-    width: 270px;
-    height: 14px;
 
 }
 
-div .line-left {
-    width: 107px;
-    border-bottom: 1px solid #DBDBDB;
-    margin-right: 17px;
-}
-
-div .line-right {
-    width: 107px;
-    border-bottom: 1px solid #DBDBDB;
-    margin-left: 17px;
-}
-
-p {
-    font-size: 17px;
+.line p {
+    font-size: 13px;
     font-weight: 700;
     color: #8E8E8E;
+}
+
+.line-left {
+    width: 107.25px;
+    height: 0px;
+    border: 1px solid #DBDBDB;
+    margin-right: 18px;
 
 }
 
-button.login-facebook {
-    width: 200px;
-    font-size: 16px;
-    text-align: center;
-    border: 0;
-    background-color: #FFF;
-    color: #385185;
-    margin-top: 29px;
+.line-right {
+    width: 107.25px;
+    height: 0px;
+    border: 1px solid #DBDBDB;
+    margin-left: 18px;
+
+}
+
+button {
     font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    color: #385185;
+    border: 0px;
+    background-color: #FFF;
+    margin-top: 28.98px;
 }
 
-button.login-facebook i {
-    margin-right: 8px;
+button i {
     width: 16px;
     height: 16px;
+    margin-right: 0px;
+    margin-bottom: 22px;
 }
 
-.pass-recovery {
-    font-size: 12px;
-    margin-top: 22px;
+p .forgot-passowrd {
     font-weight: 400;
+    font-size: 12px;
     color: #00376B;
 }
 
-p.not-account {
+.have-account {
     font-size: 14px;
+    color: #262626;
     margin-top: 79.5px;
-    color: #262626;
-    font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
 
-p.not-account a {
+div .sigin-up {
     font-weight: 700;
+    font-size: 14px;
     color: #0095F6;
+    padding-left: 5px;
 }
 
-p.get-app {
+.get-the-app {
+    font-weight: 400;
+    font-size: 14px;
     margin-top: 68.5px;
+    margin-bottom: 21px;
+}
+
+.get-apps {
+    display: flex;
+    justify-content: center;
+}
+
+.get-apps .gplay {
+    width: 134.28px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.get-apps .microsoft {
+    width: 110.77px;
+    height: 40px;
+}
+
+footer {
+    height: 180px;
+    width: 390px;
+    border-radius: 0px;
+    margin-top: 46.02px;
+    margin-left: -60px;
+    justify-content: center;
+}
+
+footer .links a {
     font-size: 14px;
     font-weight: 400;
-    color: #262626;
+    padding-left: 10px;
+    color: #8E8E8E;
+    text-decoration: none;
+
 }
 
-div.get-stores {
+
+footer div.copy {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: 21px;
     display: flex;
+    margin-left: 60px;
+    justify-content: center;
 }
 
-div.get-stores img {
-    width: 134px;
-    height: 40px;
-    margin-left: 4px;
-    margin-right: 4px;
+footer div.copy p {
+    margin-right: 21.21px;
 }
 
-@media (min-width: 992px) {
-    .main {
-        width: 1024px;
-        height: 848px;
-        align-items: center;
-    }
-
-    .container .no-smartphone img {
-        width: 360px;
-        height: 539px;
-        margin-left: 136px;
-        margin-right: 45px;
-        display: block;
-    }
-
-    div .line {
-        margin-left: 41px;
-    }
-
-    .main {
-        border: 1px solid #DBDBDB;
-        width: 350px;
-        height: 399px;
-    }
-
-    .not-account {
-        border: 1px solid #DBDBDB;
-        width: 350px;
-        height: 63px;
-        padding-top: 24px;
-        margin-top: 10px;
-   
-
-    }
-
-    .get-stores {
-        background-color: red;
-        width: 350px;
-        height: 44px;
-        margin-bottom: 162px;
-    }
-
-    .get-stores img {}
-
-    .footer {
-        background-color: red;
-        width: 1002px;
-        align-items: center;
-
-    }
-
-
-}
+@media (min-width: 992px) {}
