@@ -7,6 +7,11 @@
 main {
     margin: 60px;
     text-align: center;
+    align-items: center;
+}
+
+.smartphone img {
+    display: none;
 }
 
 main img {
@@ -79,13 +84,12 @@ button {
     border: 0px;
     background-color: #FFF;
     margin-top: 28.98px;
+    margin-bottom: 22px;
 }
 
-button i {
-    width: 16px;
-    height: 16px;
-    margin-right: 0px;
-    margin-bottom: 22px;
+i {
+    margin-right: 8px;
+    color: #385185;
 }
 
 p .forgot-passowrd {
@@ -158,10 +162,56 @@ footer div.copy {
     display: flex;
     margin-left: 60px;
     justify-content: center;
+    margin-bottom: 62px;
 }
 
 footer div.copy p {
     margin-right: 21.21px;
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    main {
+        width: 1024px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .smartphone img {
+        width: 360px;
+        height: 539px;
+        display: block;
+    }
+
+    main .form {
+        width: 350px;
+        height: 399.98px;
+        margin-left: 45.16px;
+        padding: 40px;
+        border: 1px solid #DBDBDB;
+
+    }
+
+    .line {
+        justify-content: center;
+    }
+
+    .have-account {
+        width: 430px;
+        height: 63px;
+        border: 1px solid #DBDBDB;
+        padding-top: 24px;
+        margin-left: -42.16px;
+    }
+
+    .get-the-app {
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+
+    footer {
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+}
